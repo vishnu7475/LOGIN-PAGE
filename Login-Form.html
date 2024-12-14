@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Page </title>
+    <link rel="icon" type="image/png" href="Music.png">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #a0e9ff, #b8e994);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .login-background {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-form {
+            background-color: #fff;
+            text-align: center;
+            width: 350px;
+            height: 410px;
+            padding: 40px;
+            padding-top: 50px;
+            border-radius: 10px;
+
+        }
+
+        .login-form h2 {
+            margin-bottom: 30px;
+            color: #2c7c72;
+        }
+
+        .identity input {
+            width: 90%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        .show-password {
+            text-align: left;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .show-password input {
+            margin-right: 1px;
+        }
+
+        .login-button {
+            background-color: #2c7c72;
+            color: #fff;
+            font-size: 15px;
+            text-align: center;
+            padding: 10px;
+            width: 30%;
+            height: 11%;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: green;
+        }
+
+        .extra-links {
+            margin-top: 25px;
+            font-size: 14px;
+        }
+
+        .extra-links a {
+            text-decoration: none;
+            color: #47a095;
+        }
+
+        .extra-links p {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Login-background">
+        <form class="login-form">
+            <h2> Login </h2>
+            <div class="identity">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="identity">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="show-password">
+                <input type="checkbox" id="show-password">
+                <label for="show-password">Show Password</label>
+            </div>
+            <button type="submit" class="login-button"> SIGN IN </button>
+            <div class="extra-links">
+                Forgot <a href="First_Task.html"> Username / Password </a>?
+                <p> Don't have an account? <a href="First_Task.html"> Sign up </a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
